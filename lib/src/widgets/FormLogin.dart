@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
 class FormLogin extends StatelessWidget {
-  
-  String strEmail, strPassword;
-  
   @override
   Widget build(BuildContext context) {
+    String strEmail, strPassword;
     return Container(
       width: double.infinity,
       height: 230.0,
@@ -46,6 +44,8 @@ class FormLogin extends StatelessWidget {
                   fontSize: 14.0,
                 )),
             TextFormField(
+              
+              //style: TextStyle(color: Colors.white),
               decoration: InputDecoration(
                   hintText: 'Enter Email',
                   hintStyle: TextStyle(color: Colors.grey, fontSize: 12.0)),

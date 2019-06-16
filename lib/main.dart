@@ -16,12 +16,13 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Flutter',
-      /*
-      theme: ThemeData(
-        accentColor: Colors.white,
-        primarySwatch: Colors.blue,
-      ),
-      */
+      
+      // theme: ThemeData(
+      //   inputDecorationTheme: InputDecorationTheme(focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.red))),
+      //   accentColor: Colors.white,
+      //   primarySwatch: Colors.blue,
+      // ),
+      
       home: SplashScreenPage(),
       // home: LoginPage(),
       routes: <String, WidgetBuilder>{
